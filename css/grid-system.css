@@ -100,7 +100,7 @@
 	
 }
 
-@media (min-width: 200px) and (max-width: 700px) {
+@media (min-width: 200px) and (max-width: 535px) {
 	[class*="col-"] {
 		width: 100%;
 		margin-left: 3%;
@@ -113,7 +113,7 @@
 	}
 
 	.col-8 img {
-		width: 50%;
+		width: 60%;
 	}
 
 	.col-4 {
