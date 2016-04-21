@@ -23,9 +23,10 @@
 .formulario {
 	background-color: #9E9E9E;
 	padding: 2% 4%;
-	margin-right: 35%;
 	text-align: center;
 	border-radius: 10px;
+	width: 50%;
+	margin-left: 5%;
 }
 #get {
 	font-size: 200%;
@@ -44,19 +45,7 @@ input {
 	height: 25px;
 
 }
-
-/*css2*/
-
-@media (min-width:360px) and  (max-width: 700px) {
-	.col-7 {
-		
-		text-align: center;
-		display: block;
-	}
-	.formulario{
-		display: block;
-		width: 100%;
-
-	}
-	
+.col-5 p {
+	margin-bottom: 3%;
 }
+

@@ -14,40 +14,6 @@
   margin-left: auto;
 }
 
-@media (max-width: 767px) {
-	.container {
-	    margin:0 !important;
-	    padding:0 !important;
-	}
-
-	.row {
-	    margin:0 !important;
-	    padding:0 !important;
-	}	
-}
-
-@media (max-width: 700px) {
-	[class*="col-"] {
-		width: 100%;
-	}
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
 .row {
 	width: 100%;
 	margin-left: -14px;
@@ -127,4 +93,56 @@
 .col-12 {
 	/* (12 / 12) x 100 */
 	width: 100%;
+}
+
+/*diseño*/
+@media (max-width: 767px) {
+	
+}
+
+@media (min-width: 200px) and (max-width: 700px) {
+	[class*="col-"] {
+		width: 100%;
+		margin-left: 3%;
+	}
+
+	.col-8 {
+		width: 66.666667%;
+		margin-left: 0%;
+
+	}
+
+	.col-8 img {
+		width: 50%;
+	}
+
+	.col-4 {
+		width: 33.333333%;
+		margin-left: 0%;
+	}
+
+	.formulario {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.col-5 p {
+		margin-bottom: 5%;
+	}
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
